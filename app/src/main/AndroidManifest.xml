@@ -12,18 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationDrawer"
         tools:targetApi="31">
+
         <activity
             android:name=".testactivity"
             android:exported="false"
             android:label="@string/title_activity_testactivity"
             android:theme="@style/Theme.NavigationDrawer" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
@@ -31,6 +32,12 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <!-- Add FirstActivity declaration here -->
+        <activity
+            android:name=".FirstActivity"
+            android:exported="true" /> <!-- exported="true" if you need to launch from outside the app -->
+
     </application>
 
 </manifest>
