@@ -68,14 +68,16 @@
         </com.google.android.material.bottomappbar.BottomAppBar>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
             android:src="@drawable/baseline_add_24"
-            app:layout_anchor="@id/bottomAppBar"
             app:maxImageSize="40dp"
-            android:id="@+id/fab"
-            app:tint="@color/lavender" />
+            app:tint="@color/lavender"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="16dp" /> <!-- Add margin if needed -->
+
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </androidx.drawerlayout.widget.DrawerLayout>

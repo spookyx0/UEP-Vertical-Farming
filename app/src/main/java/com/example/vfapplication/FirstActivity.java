@@ -105,7 +105,7 @@ public class FirstActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 dialog.dismiss();
-                Toast.makeText(FirstActivity.this,"Upload a Video is clicked",Toast.LENGTH_SHORT).show();
+                Toast.makeText(FirstActivity.this,"Record Plant is clicked",Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -115,7 +115,7 @@ public class FirstActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 dialog.dismiss();
-                Toast.makeText(FirstActivity.this,"Create a short is Clicked",Toast.LENGTH_SHORT).show();
+                Toast.makeText(FirstActivity.this,"Record Sensor is Clicked",Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -125,7 +125,7 @@ public class FirstActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 dialog.dismiss();
-                Toast.makeText(FirstActivity.this,"Go live is Clicked",Toast.LENGTH_SHORT).show();
+                Toast.makeText(FirstActivity.this,"Record Tower is Clicked",Toast.LENGTH_SHORT).show();
 
             }
         });
