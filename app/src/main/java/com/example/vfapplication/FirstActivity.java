@@ -73,12 +73,7 @@ public class FirstActivity extends AppCompatActivity {
             return true;
         });
 
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                showBottomDialog();
-            }
-        });
+        fab.setOnClickListener(view -> showBottomDialog());
 
     }
     //Outside onCreate
